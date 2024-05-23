@@ -1,0 +1,62 @@
+.container__products{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    overflow-y: auto;
+    width: 45rem;
+    height: 50vh;
+    margin-top: 2.4rem;
+    background-color: var(--color-container-products);
+    margin-bottom: 4rem;
+    -webkit-box-shadow: -8px 12px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 12px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: -8px 12px 14px 0px rgba(0,0,0,0.75);
+}
+
+.container__products::-webkit-scrollbar{
+    width: 5px;
+}
+
+.container__products::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+
+.mensagem-vazia{
+    width: 100%;
+    padding-left: 12rem;
+    font-size: 1.5rem;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--card);
+    color: var(--font-card);
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid var(--border);
+    margin: 1rem;
+    width: calc(100%/4);
+}
+
+.card .img img{
+    width: 9.5rem;
+    height: 12rem;
+}
+
+.card-container--info{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container__value{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container__value .lixeira{
+    background-color: var(--card);
+    cursor: pointer;
+}

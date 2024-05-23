@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./src/imagens/armazem.png" type="image/x-icon">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <img class="header__logo" src="./src/imagens/Logo.png" alt="Logo AluraGeek">
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="products">
+            <h1 class="tittle title__products">meus produtos:</h1>
+            <div class="container__products" data-lista></div>
+        </section>
+
+        <section class="form">
+            <h2 class="tittle title__form">adicionar<br>produto:</h2>
+            <form class="form__container" data-form>
+                <input type="text" placeholder="Nome" data-titulo>
+                <input type="text" placeholder="Preço" data-price>
+                <input type="text" placeholder="Imagem" data-image>
+
+                <div class="form__button">
+                    <button type="submit" class="btn btn-save" id="button">Guardar</button>
+                    <button type="reset" class="btn btn-clear" id="button">Limpar</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <h3>Desenvolvido por 
+            <a href="https://www.linkedin.com/in/drielysantos/"> Driely Santos</a>
+        </h3>
+        <span>alura latam - 2024</span>
+    </footer>
+
+    <script src="./src/js/enviarProduto.js" type="module"></script>
+    <script src="./src/js/mostrarProduto.js" type="module"></script>
+</body>
+</html>

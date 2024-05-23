@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%;
+    height: 4rem;
+    background-color: var(--footer);
+}
+
+.footer h3{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    color: var(--footer-tittle);
+}
+
+.footer h3 a{
+    color: var(--footer-tittle);
+    transition: 0.3s;
+}
+
+.footer h3 a:hover{
+    color: var( --footer-tittle-hover);
+}
+
+.footer span{
+    font-size: .9rem;
+    font-weight: 400;
+    padding-top: .2rem;
+    color: var(--footer-tittle);
+}
