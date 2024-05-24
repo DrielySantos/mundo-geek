@@ -79,7 +79,10 @@
         padding-left: 1rem;
         text-align: center;
         font-size: 1rem;
-        
+    }
+
+    .footer h3{
+        font-size: 0.7rem;
     }
 }
 
