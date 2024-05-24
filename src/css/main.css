@@ -13,11 +13,17 @@ html{
     width: 100%;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--color-container);
+}
+
 .container{
     display: flex;
     justify-content: space-evenly;
     padding-top: 4rem;
-    background-color: var(--color-container);
 }
 
 .tittle{
